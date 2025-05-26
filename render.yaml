@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: hair-studio-blessed
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python backend/run_waitress.py"
