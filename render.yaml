@@ -3,7 +3,7 @@ services:
     name: hair-studio-blessed
     env: python
     buildCommand: ""
-    startCommand: python backend/run_waitress.py
+    start: python run_waitress.py
     plan: free
 
 
