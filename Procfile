@@ -1,1 +1,2 @@
-web: waitress-serve --listen=0.0.0.0:8000 backend.app:app
+web: python backend/run_waitress.py
+
